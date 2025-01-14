@@ -1,0 +1,67 @@
+
+footer {
+    background-color: black;
+    color: #FFF;
+    height: 500px;
+    overflow: hidden;
+    max-height: 305px;
+  }
+  .footer-my {
+    color: #FFF;
+    position: relative;
+    top: 120px;
+    left: 120px;
+  }
+  .footer-my h4{
+    padding-bottom: 10px;
+    margin: 5px 0;
+    font-size: 25px;
+  }
+  .footer-my p{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #d2cfcf;
+    line-height: 1.8;
+  }
+  .link-social {
+    position: relative;
+    text-align: right;
+    margin: 100px 340px;
+    color: #FFF;
+    bottom: 200px;
+    right: 150px;
+  }
+  
+  .link-social h4{
+    margin: 5px 20px;
+    font-size: 25px;
+  }
+  
+  .button-footer button{
+    background-color: transparent; 
+    border: none;
+    margin: 0;
+    padding: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .button-footer button:hover{
+    transform: translateY(-8px);
+  }
+  
+  .hrr {
+    border-top: 1px solid #a6a0a0;
+    margin: 10px 100px;
+    position: relative;
+    bottom: 150px;
+  }
+  
+  .hr-footer {
+    position: relative;
+    bottom: 150px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+  }

@@ -1,0 +1,25 @@
+#link-social {
+  width: 80px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 25px 10px;
+  position: absolute;
+  bottom: 300px;
+  background-color: #fff;
+}
+
+#link-social button {
+  border-radius: 10px;
+  padding: 10px;
+  border-style: none;
+  background: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+#link-social button:hover {
+  background-color: rgba(120, 67, 233, 0.2);
+  translate: 0.5s;
+}
