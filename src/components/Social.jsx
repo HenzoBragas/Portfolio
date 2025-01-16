@@ -1,12 +1,18 @@
 import React from 'react'
+import pdFile from '/Curriculo.pdf'
 import '../styles/Social.css'
 
 function Social() {
+
+    const handleClick = () => {
+        window.open(pdFile, '_blank');
+      };
+
     return (
         <div id='link-social'>
             {/* Linkedin */}
             <button
-                onclick="window.open('https://www.linkedin.com/in/henzo-bragas-75b982262/', '_blank')"
+                onClick={() => window.open('https://www.linkedin.com/in/henzo-bragas-75b982262/', '_blank')}
             >
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -24,7 +30,7 @@ function Social() {
             </button>
             {/* <!-- github --> */}
             <button
-                onclick="window.open('https://github.com/HenzoBragas', '_blank')"
+                onClick={() => window.open('https://github.com/HenzoBragas', '_blank')}
             >
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +51,8 @@ function Social() {
                 </svg>
             </button>
             {/* <!-- curriculum --> */}
-            <button onclick="window.open('./src/curriculum.pdf', '_blank')">
+            <button onClick={handleClick}>
+
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="28"

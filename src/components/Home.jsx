@@ -3,7 +3,7 @@ import '../styles/Home.css'
 
 function Home() {
     return (
-        <div class="image-container">
+        <div class="image-container" id='home'>
             <div class="overlay-content">
                 <div class="text-container">
                     <h2>HEY, I'M HENZO BRAGAS</h2>

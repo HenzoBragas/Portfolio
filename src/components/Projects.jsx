@@ -8,7 +8,7 @@ import '../styles/Projects.css'
 function Projects() {
     return (
         <>
-            <div className='ProjectsWrapper'>
+            <div className='ProjectsWrapper' id='project'>
                     <h2>PROJECTS</h2>
                     <div className="hr"></div>
                     <h3 className="subtitle">
