@@ -6,11 +6,12 @@ header {
   position: fixed;
   z-index: 1000;
   background-color: #fff;
+  overflow: hidden;
 }
 
 header ul {
   display: flex;
-  width: 512px;
+  width: 500px;
   margin-left: 600px;
   justify-content: space-around;
   padding: 30px;
@@ -19,19 +20,43 @@ header li {
   font-size: 18px;
   font-weight: 700;
   list-style: none;
+  cursor: pointer;
+  padding-bottom: 5px; 
+  transition: border-bottom 0.1s ease-in-out ;
 }
 header ul li a {
   text-decoration: none;
   color: inherit;
+  
 }
+
+header ul li:hover{
+    border-bottom: 3px solid #7843E9;
+}
+
+header ul li .active{
+  border-bottom: 3px solid #7843E9;
+  transition: border-bottom 0.3s ease-in-out;
+}
+
 .name-bar {
   display: flex;
   margin-left: 50px;
-  padding: 30px;
+  padding: 20px;
+}
+
+.name-bar img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .name-bar p {
   padding-left: 10px;
+  white-space: nowrap;
+  align-items: center;
+  display: flex;
   font-size: 20px;
   font-weight: 600;
 }

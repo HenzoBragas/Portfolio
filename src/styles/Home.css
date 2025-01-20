@@ -3,8 +3,8 @@
   height: 795px;
   background: linear-gradient(
       to right,
-      rgba(245, 245, 245, 0.8),
-      rgba(245, 245, 245, 0.8)
+      rgba(245, 245, 245, 0.1),
+      rgba(245, 245, 245, 0.1)
     ),
     url(../assets/common-bg.svg);
   background-position: center;

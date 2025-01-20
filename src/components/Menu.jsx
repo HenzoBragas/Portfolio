@@ -1,26 +1,75 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React, { useState } from 'react';
+import perfil from '../assets/perfil.png';
 import { Link as ScrollLink } from 'react-scroll';
-
-import '../styles/menu.css'
+import '../styles/menu.css';
 
 function Menu() {
+    const [activeLink, setActiveLink] = useState('home');
+
+    const handleSetActive = (to) => {
+        setActiveLink(to);
+    };
+
     return (
         <div>
-                <header>
-                    <div class="name-bar">
-                        <img src="#" alt="#" />
-                        <p>HENZO BRAGAS</p>
-                    </div>
-                    <ul>
-                        <ScrollLink to="home" smooth={true} duration={500}><li>HOME</li></ScrollLink>
-                        <ScrollLink to="about" smooth={true} duration={500}><li>ABOUT</li></ScrollLink>
-                        <ScrollLink to="project" smooth={true} duration={500}><li>PROJECTS</li></ScrollLink>
-                        <ScrollLink to="contact" smooth={true} duration={500}><li>CONTACT</li></ScrollLink>
-                    </ul>
-                </header>
+            <header>
+                <div className="name-bar">
+                    <img src={perfil} alt="Perfil" />
+                    <p>HENZO BRAGAS</p>
+                </div>
+                <ul>
+                    <li>
+                        <ScrollLink
+                            to="home"
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            onSetActive={handleSetActive}
+                            className={activeLink === 'home' ? 'active' : ''}
+                        >
+                            HOME
+                        </ScrollLink>
+                    </li>
+                    <li>
+                        <ScrollLink
+                            to="about"
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            onSetActive={handleSetActive}
+                            className={activeLink === 'about' ? 'active' : ''}
+                        >
+                            ABOUT
+                        </ScrollLink>
+                    </li>
+                    <li>
+                        <ScrollLink
+                            to="project"
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            onSetActive={handleSetActive}
+                            className={activeLink === 'project' ? 'active' : ''}
+                        >
+                            PROJECTS
+                        </ScrollLink>
+                    </li>
+                    <li>
+                        <ScrollLink
+                            to="contact"
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            onSetActive={handleSetActive}
+                            className={activeLink === 'contact' ? 'active' : ''}
+                        >
+                            CONTACT
+                        </ScrollLink>
+                    </li>
+                </ul>
+            </header>
         </div>
-    )
+    );
 }
 
-export default Menu
+export default Menu;
