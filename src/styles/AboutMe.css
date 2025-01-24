@@ -83,4 +83,9 @@
   text-align: center;
   color: #666;
   font-weight: 600;
+  transition: scale 2.5s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.overlay:hover{
+  transform: scale(1.1);
 }
