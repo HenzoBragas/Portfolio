@@ -88,12 +88,23 @@
   transform: scale(1.1);
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 2700px) {
   .meabout{
     margin-right: 600px;
   }
 
   .container-skills {
     margin-left: 1100px;
+  }
+}
+
+
+@media screen and (max-width: 1600px) {
+  .meabout{
+      margin-right: 500px;
+  }
+
+  .container-skills{
+    margin-left: 820px;
   }
 }

@@ -43,10 +43,17 @@
   margin-bottom: 20px;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 2700px) {
   .hr {
     text-align: center;
     margin-left: 939px;
 
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .hr{
+    text-align: center;
+    margin-left: 700px;
   }
 }

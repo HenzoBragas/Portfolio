@@ -98,7 +98,7 @@
   background: none;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 2700px) {
   .projectsWrapper .subtitle {
     margin-bottom: 80px;
   }
@@ -107,6 +107,12 @@
     scale: 1.1;
     margin-left: 60px;
   }
+}
 
-
+@media screen and (max-width: 1600px) {
+  .containerProjects{
+    width: 1400px;
+    margin-left: 20px;
+    scale: 1;
+  }
 }
