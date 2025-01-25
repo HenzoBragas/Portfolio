@@ -14,7 +14,8 @@ header ul {
   width: 500px;
   margin-left: 600px;
   justify-content: space-around;
-  padding: 30px;
+  padding: 100px;
+  
 }
 header li {
   font-size: 18px;
@@ -59,4 +60,14 @@ header ul li .active{
   display: flex;
   font-size: 20px;
   font-weight: 600;
+}
+
+
+@media screen and (min-width: 1200px) {
+    header ul {
+      width: calc(90% -  38%);
+      justify-content: flex-end;
+      gap: 40px;
+      
+    }
 }

@@ -7,9 +7,8 @@ import AboutMe from './components/AboutMe'
 import Footer from './components/Footer'
 import Projects from './components/Projects'
 
-function App() {
-  const [count, setCount] = useState(0)
 
+function App() {
   return (
     <>
       <div>

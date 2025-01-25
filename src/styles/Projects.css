@@ -80,7 +80,7 @@
     
 }
 
-button {
+.projectItem button {
   display: inline-block;
   margin-right: 10px;
   margin: 5px;
@@ -94,6 +94,19 @@ button {
   font-weight: 600;
 }
 
-button:hover {
+.projectItem button:hover {
   background: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .projectsWrapper .subtitle {
+    margin-bottom: 80px;
+  }
+  .containerProjects{
+    width: 1800px; 
+    scale: 1.1;
+    margin-left: 60px;
+  }
+
+
 }

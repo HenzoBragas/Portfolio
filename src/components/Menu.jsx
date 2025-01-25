@@ -54,18 +54,6 @@ function Menu() {
                             PROJECTS
                         </ScrollLink>
                     </li>
-                    <li>
-                        <ScrollLink
-                            to="contact"
-                            smooth={true}
-                            duration={500}
-                            spy={true}
-                            onSetActive={handleSetActive}
-                            className={activeLink === 'contact' ? 'active' : ''}
-                        >
-                            CONTACT
-                        </ScrollLink>
-                    </li>
                 </ul>
             </header>
         </div>

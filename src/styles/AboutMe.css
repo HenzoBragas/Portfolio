@@ -9,13 +9,12 @@
   font-size: 15px;
 }
 .container-about h2 {
-  margin: 20px 650px;
+  margin: 20px;
+  text-align: center;
   white-space: nowrap;
 }
 
 .subtitle {
-  justify-content: center;
-  align-items: center;
   text-align: center;
 }
 .subtitle h3 {
@@ -45,7 +44,6 @@
   font-size: 18px;
   line-height: 30px;
 }
-
 
 .container-skills {
   display: flex;
@@ -86,6 +84,16 @@
   transition: scale 2.5s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
-.overlay:hover{
+.overlay:hover {
   transform: scale(1.1);
+}
+
+@media screen and (min-width: 1200px) {
+  .meabout{
+    margin-right: 600px;
+  }
+
+  .container-skills {
+    margin-left: 1100px;
+  }
 }
