@@ -11,7 +11,7 @@ function Projects() {
             <h2>PROJECTS</h2>
             <div className="hr"></div>
             <div className="subtitle">
-                <p>Here you will find some of the personal and clients projects that i create</p>
+                <p>Here you will find some of the personal  projects that i create</p>
             </div>
             <div className="containerProjects">
                 {project.map((project) => (

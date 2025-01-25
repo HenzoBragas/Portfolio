@@ -17,7 +17,7 @@ function AboutMe() {
                     <div className="meabout">
                         <h3>Get to know me!</h3>
                         <p>
-                        I am a Web Developer Focused on Frontend, building and managing the Front-end of Websites. Check out some of my work in the Projects section.<br /> I also enjoy sharing content related to what I've learned over the years in Web Development to help others in the Dev community. Feel free to connect with or follow me on my <a href="https://www.linkedin.com/in/henzo-bragas-75b982262/" target="_blank">LinkedIn</a> about Web Development and Programming.<br /> I am open to job opportunities where I can contribute, learn, and grow. If you have a great opportunity that aligns with my skills and experience, don't hesitate to <strong>get in touch</strong> with me.
+                        I'm a web developer focused on fullstack applications, building and managing the front-end of websites. Check out some of my work in the Projects section.<br /> I'm currently pursuing a degree in Computer Science. My focus is on creating web applications using ReactJS, both front-end and back-end development.<br /> I'm open to job opportunities where I can contribute, learn, and grow. If you have a great opportunity that aligns with my skills and experience, don't hesitate to reach out to me.
                         </p>
                         <button className="btn-contact">CONTACT</button>
                     </div>

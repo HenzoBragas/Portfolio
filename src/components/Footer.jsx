@@ -8,8 +8,8 @@ function Footer() {
                 <div className="footer-my">
                     <h4>Henzo Bragas</h4>
                     <p>
-                        A Frontend focused Web Developer building the Frontend of Websites and <br />
-                        Web Applications that leads to the success of the overall product
+                        Web developer focused on fullstack applications, with experience in <br />
+                        building front-end websites and web applications that drive product success.
                     </p>
                     <div className="link-social">
                         <h4>SOCIAL</h4>
