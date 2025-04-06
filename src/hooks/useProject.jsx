@@ -1,7 +1,7 @@
 import LandingPage from '../assets/LandingPage.png';
 import Crud from '../assets/Crud.png';
 import LoginPage from '../assets/LoginPage.png';
-import TranslationApp from '../assets/TranslationApp.png'
+import DevBurguer from '../assets/DevBurguer.png';
 
 function useProject() {
     const projects = [
@@ -31,11 +31,11 @@ function useProject() {
         },
         {
           id: 4,
-          title: 'Translation App',
-          description: 'App que traduz textos em tempo real.',
-          image: TranslationApp,
-          github: 'https://github.com/HenzoBragas/TransalateApp',
-          live: 'https://translationapp.com',
+          title: 'DevBurguer App',
+          description: 'App de comida com sistema de carrinho.',
+          image: DevBurguer,
+          github: 'https://github.com/HenzoBragas/Dev_Burguer',
+          live: 'https://dev-burguer-weld.vercel.app/',
         },
       ];
     
