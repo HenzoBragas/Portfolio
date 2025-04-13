@@ -19,7 +19,7 @@ function useProject() {
           description: 'Aplicativo para cadastro de cartões.',
           image: Crud,
           github: 'https://github.com/HenzoBragas/CRUD',
-          live: 'https://crudapp.com',
+          live: 'https://crud-ten-pearl.vercel.app/',
         },
         {
           id: 3,
